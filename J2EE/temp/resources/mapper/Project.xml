@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.mapper.ProjectMapper">
+    <update id="update">
+        UPDATE t_project
+        <set>
+            <if test="p_id !=null">
+                p_id=#{p_id},
+            </if>
+            <if test="project!=null">
+                project =#{project },
+            </if>
+            <if test="p_address !=null">
+                p_address =#{p_address },
+            </if>
+            <if test="description !=null">
+                description=#{description},
+            </if>
+        </set>
+        <where>
+            p_id=#{p_id}
+        </where>
+    </update>
+</mapper>
