@@ -68,12 +68,12 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES (1, '熊晨鑫', '123456', '管理员', '2023-06-10 20:07:37', 'http://localhost:9090/file/d0fbf8d64f654fdab12394f77532c9d6.bmp');
-INSERT INTO `sys_user` VALUES (2, '付思成', '123456', '付总', '2023-06-10 16:26:08', '0');
-INSERT INTO `sys_user` VALUES (3, '胡靖宇', '123456', '胡总', '2023-06-10 16:26:10', '0');
-INSERT INTO `sys_user` VALUES (4, '肖富林', '123456', '肖总', '2023-06-10 20:48:34', NULL);
-INSERT INTO `sys_user` VALUES (5, '刘龙湖', '123456', '刘总', '2023-06-10 20:48:42', NULL);
-INSERT INTO `sys_user` VALUES (6, '郭志祥', '1234567', '郭总', '2023-06-10 20:48:52', NULL);
+INSERT INTO `sys_user` VALUES (1, '熊', '123456', '管理员', '2023-06-10 20:07:37', 'http://localhost:9090/file/d0fbf8d64f654fdab12394f77532c9d6.bmp');
+INSERT INTO `sys_user` VALUES (2, '付', '123456', '付总', '2023-06-10 16:26:08', '0');
+INSERT INTO `sys_user` VALUES (3, '胡', '123456', '胡总', '2023-06-10 16:26:10', '0');
+INSERT INTO `sys_user` VALUES (4, '肖', '123456', '肖总', '2023-06-10 20:48:34', NULL);
+INSERT INTO `sys_user` VALUES (5, '刘', '123456', '刘总', '2023-06-10 20:48:42', NULL);
+INSERT INTO `sys_user` VALUES (6, '郭', '1234567', '郭总', '2023-06-10 20:48:52', NULL);
 
 -- ----------------------------
 -- Table structure for t_dataprocessing
